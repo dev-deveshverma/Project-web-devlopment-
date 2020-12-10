@@ -1,1 +1,42 @@
-
+body{
+    height: 100%;
+}
+video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50%;
+    margin-left: -50%;
+    z-index: 1;
+}
+a{
+    margin-top:5%;
+    background-color: darkturquoise;
+    display: inline-block;
+    padding: 12px 48px;
+    border: solid 4px rgb(255,60,100);
+    text-decoration: none;
+    font-size: 24px;
+    color: yellow;
+}
+div{
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    max-width: 720px;
+    margin-top: 100px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 25px;
+    color:yellow;
+    font-size: 44px;
+    background-color:transparent;
+    opacity: 0.7;
+}
+h3{
+    border-radius: 0%;
+    color:yellow;
+    background-color:dodgerblue;
+    opacity:0.7;
+}
